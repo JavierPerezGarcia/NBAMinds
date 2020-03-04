@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+header{
+    display: grid;
+    grid-template-rows: 15vh;
+    grid-template-columns: 50% 50%;
+}
+
+.logo{
+    grid-column: 1 / 2;
+    background-color: aqua;
+}
+
+nav{
+    grid-column: 2 / 3;
+    background-color: greenyellow;
+}
+
+aside{
+    display: grid;
+    grid-template-rows: 55vh;
+    grid-template-columns: 50% 50%;
+}
+
+.mainImage{
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+
+.firstView{
+    grid-column: 1 / 2;
+    background-color: hotpink;
+}
+
+.secondView{
+    grid-column: 2 / 3;
+    background-color: indigo;
+}

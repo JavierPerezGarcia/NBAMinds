@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 100vh;
+    grid-template-rows: 10vh;
+    background-color: #221f1f;
+}
+
+.copyright>p{
+    font-family: 'Rubik', sans-serif;
+}

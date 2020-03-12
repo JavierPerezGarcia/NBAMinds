@@ -4,13 +4,35 @@
     box-sizing: border-box;  
 }
 
-footer{
+.finalInfo{
     display: grid;
-    grid-template-columns: 100vh;
-    grid-template-rows: 10vh;
+    grid-template-columns: 2% 40% 16% 40% 2%;
+    grid-template-rows: 2vh 6vh 2vh;
     background-color: #221f1f;
+}
+
+.copyright{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .copyright>p{
     font-family: 'Rubik', sans-serif;
+}
+
+.socialMedia{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.socialMedia img{
+    width: 2vw;
+    height: 4vh;
+    margin: 0px 10px;
 }

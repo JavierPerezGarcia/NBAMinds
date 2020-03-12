@@ -4,11 +4,10 @@
     box-sizing: border-box;  
 }
 
-.mainImage{
+.slider{
     position: absolute;
     width: 30%;
     height: 60%;
-    background-color: white;
     border-radius: 50%;
     top: 13%;
     left: 35%;
@@ -18,7 +17,7 @@
     z-index: 1;
 }
 
-section{
+.firstPart{
     display: grid;
     grid-template-rows: 55vh 30vh;
     grid-template-columns: 50% 50%;

@@ -4,16 +4,24 @@
     box-sizing: border-box;  
 }
 
+.title{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15vh;
+}
+
 .teams{
     display: grid;
-    grid-template-rows: 15vh 5vh 21vh 5vh 21vh 5vh 21vh 5vh 21vh 5vh 21vh 5vh 21vh 5vh;
+    grid-template-rows: 5vh 21vh 5vh 21vh 5vh 21vh 5vh 21vh 5vh 21vh 5vh 21vh 5vh;
     grid-template-columns: 3% 30% 2% 30% 2% 30% 3%;
     grid-template-columns: 4% 16% 3% 16% 3% 16% 3% 16% 3% 16% 4%;
 }
 
-.teams>div{
+.teams div{
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
 .fondoTeams{
@@ -24,188 +32,204 @@
 }
 
 .titleTeams{
-    grid-column: 1 / 12;
+    grid-column: 1 / 2;
     grid-row: 1 / 2;
     background-color: #221f1f;
     opacity: 0.95;
 }
 
-.atlantaHawks{
+.team1{
     grid-column: 2 / 3;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    transform: rotateY(180deg);
+}
+
+.atlantaHawks{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     background-image: url(../../img/teams/atlantaHawks.png);
+}
+
+.atlantaHawks:hover{
+    transform: rotateY(180deg);
+    background-image: url(../../img/oldTeams/hawksOld.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .bostonCeltics{
     grid-column: 4 / 5;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
     background-image: url(../../img/teams/bostonCeltics.png);
 }
 
 .brooklynNets{
     grid-column: 6 / 7;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
     background-image: url(../../img/teams/brooklynNets.png);
 }
 
 .charlotteHornets{
     grid-column: 8 / 9;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
     background-image: url(../../img/teams/charlotteHornets.png);
 }
 
 .chicagoBulls{
     grid-column: 10 / 11;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
     background-image: url(../../img/teams/chicagoBulls.png);
 }
 
 .clevelandCavaliers{
     grid-column: 2 / 3;
-    grid-row: 5 / 6;
+    grid-row: 4 / 5;
     background-image: url(../../img/teams/clevelandCavaliers.png);
 }
 
 .dallasMavericks{
     grid-column: 4 / 5;
-    grid-row: 5 / 6;
+    grid-row: 4 / 5;
     background-image: url(../../img/teams/dallasMavericks.png);
 }
 
 .denverNuggets{
     grid-column: 6 / 7;
-    grid-row: 5 / 6;
+    grid-row: 4 / 5;
     background-image: url(../../img/teams/denverNuggets.png);
 }
 
 .detroitPistons{
     grid-column: 8 / 9;
-    grid-row: 5 / 6;
+    grid-row: 4 / 5;
     background-image: url(../../img/teams/detroitPistons.png);
 }
 
 .goldenStateWarriors{
     grid-column: 10 / 11;
-    grid-row: 5 / 6;
+    grid-row: 4 / 5;
     background-image: url(../../img/teams/goldenStateWarriors.png);
 }
 
 .houstonRockets{
     grid-column: 2 / 3;
-    grid-row: 7 / 8;
+    grid-row: 6 / 7;
     background-image: url(../../img/teams/houstonRockets.png);
 }
 
 .indianaPacers{
     grid-column: 4 / 5;
-    grid-row: 7 / 8;
+    grid-row: 6 / 7;
     background-image: url(../../img/teams/indianaPacers.png);
 }
 
 .losAngelesClippers{
     grid-column: 6 / 7;
-    grid-row: 7 / 8;
+    grid-row: 6 / 7;
     background-image: url(../../img/teams/losAngelesClippers.png);
 }
 
 .losAngelesLakers{
     grid-column: 8 / 9;
-    grid-row: 7 / 8;
+    grid-row: 6 / 7;
     background-image: url(../../img/teams/losAngelesLakers.png);
 }
 
 .memphisGrizzlies{
     grid-column: 10 / 11;
-    grid-row: 7 / 8;
+    grid-row: 6 / 7;
     background-image: url(../../img/teams/memphisGrizzlies.png);
 }
 
 .miamiHeat{
     grid-column: 2 / 3;
-    grid-row: 9 / 10;
+    grid-row: 8 / 9;
     background-image: url(../../img/teams/miamiHeat.png);
 }
 
 .milwaukeeBucks{
     grid-column: 4 / 5;
-    grid-row: 9 / 10;
+    grid-row: 8 / 9;
     background-image: url(../../img/teams/milwaukeeBucks.png);
 }
 
 .minnesotaTimberwolves{
     grid-column: 6 / 7;
-    grid-row: 9 / 10;
+    grid-row: 8 / 9;
     background-image: url(../../img/teams/minnesotaTimberwolves.png);
 }
 
 .newOrleansPelicans{
     grid-column: 8 / 9;
-    grid-row: 9 / 10;
+    grid-row: 8 / 9;
     background-image: url(../../img/teams/newOrleansPelicans.png);
 }
 
 .newYorkKnicks{
     grid-column: 10 / 11;
-    grid-row: 9 / 10;
+    grid-row: 8 / 9;
     background-image: url(../../img/teams/newYorkKnicks.png);
 }
 
 .oklahomaCityThunder{
     grid-column: 2 / 3;
-    grid-row: 11 / 12;
+    grid-row: 10 / 11;
     background-image: url(../../img/teams/oklahomaThunder.png);
 }
 
 .orlandoMagic{
     grid-column: 4 / 5;
-    grid-row: 11 / 12;
+    grid-row: 10 / 11;
     background-image: url(../../img/teams/orlandoMagic.png);
 }
 
 .philadelphia76ers{
     grid-column: 6 / 7;
-    grid-row: 11 / 12;
+    grid-row: 10 / 11;
     background-image: url(../../img/teams/philadelphia76ers.png);
 }
 
 .phoenixSuns{
     grid-column: 8 / 9;
-    grid-row: 11 / 12;
+    grid-row: 10 / 11;
     background-image: url(../../img/teams/phoenixSuns3.png);
 }
 
 .portlandTrailBlazers{
     grid-column: 10 / 11;
-    grid-row: 11 / 12;
+    grid-row: 10 / 11;
     background-image: url(../../img/teams/portlandTrailBlazers.png);
 }
 
 .sacramentoKings{
     grid-column: 2 / 3;
-    grid-row: 13 / 14;
+    grid-row: 12 / 13;
     background-image: url(../../img/teams/sacramentoKings.png);
 }
 
 .sanAntonioSpurs{
     grid-column: 4 / 5;
-    grid-row: 13 / 14;
+    grid-row: 12 / 13;
     background-image: url(../../img/teams/sanAntonioSpurs.png);
 }
 
 .torontoRaptors{
     grid-column: 6 / 7;
-    grid-row: 13 / 14;
+    grid-row: 12 / 13;
     background-image: url(../../img/teams/torontoRaptors.png);
 }
 
 .utahJazz{
     grid-column: 8 / 9;
-    grid-row: 13 / 14;
+    grid-row: 12 / 13;
     background-image: url(../../img/teams/utahJazz.png);
 }
 
 .washingtonWizards{
     grid-column: 10 / 11;
-    grid-row: 13 / 14;
+    grid-row: 12 / 13;
     background-image: url(../../img/teams/washingtonWizards.png);
 }

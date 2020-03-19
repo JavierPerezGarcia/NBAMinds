@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.titleTeams{
+    display: grid;
+    grid-template-columns: 4% 92% 4%;
+    grid-template-rows: 4vh 10vh 4vh;
+    background-color: #221f1f;
+}
+
 .teams{
     display: grid;
     grid-template-columns: 4% 16% 3% 16% 3% 16% 3% 16% 3% 16% 4%;
@@ -42,7 +49,6 @@
 .oldTeam img{
     position: relative;
 }
-
 
 .innerTeam.t1{
     grid-column: 2 / 3;
@@ -329,7 +335,6 @@
     height: 90%;
     top: 5%;
     left: 10%;
-}
 }
 
 .oldTeam.t19{

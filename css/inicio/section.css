@@ -65,5 +65,20 @@
     background-position: top;
     display: grid;
     grid-template-columns: 9% 35% 19% 30% 7%;
-    grid-template-rows: 18% 64% 18%;
+    grid-template-rows: 7% 64% 29%;
+}
+
+.firstText{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.firstText p{
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+    color: #221f1f;
+    line-height: 19pt;
 }

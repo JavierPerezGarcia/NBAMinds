@@ -36,7 +36,13 @@
     height: 100%;
     position: relative;
     transform: rotateY(180deg);
+    background-color: white;
 }
+
+.oldTeam img{
+    position: relative;
+}
+
 
 .innerTeam.t1{
     grid-column: 2 / 3;
@@ -44,14 +50,13 @@
 }
 
 .oldTeam.t1 img{
-    position: relative;
     width: 65%;
     height: 100%;
     left: 17.5%;
 }
 
 .oldTeam.t1{
-    background-color: black;
+    background-color: white;
 }
 
 .innerTeam.t2{
@@ -60,15 +65,10 @@
 }
 
 .oldTeam.t2 img{
-    position: relative;
     width: 55%;
     height: 95%;
     left: 22.5%;
     top: 2.5%
-}
-
-.oldTeam.t2{
-    background-color: #ffffbf;
 }
 
 .innerTeam.t3{
@@ -77,13 +77,10 @@
 }
 
 .oldTeam.t3 img{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.oldTeam.t3{
-    background-color: black;
+    width: 60%;
+    height: 90%;
+    top: 5%;
+    left: 22%;
 }
 
 .innerTeam.t4{
@@ -92,13 +89,10 @@
 }
 
 .oldTeam.t4 img{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.oldTeam.t4{
-    background-color: black;
+    width: 80%;
+    height: 90%;
+    top: 6%;
+    left: 9%;
 }
 
 .innerTeam.t5{
@@ -107,9 +101,10 @@
 }
 
 .oldTeam.t5 img{
-    position: relative;
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 90%;
+    top: 5%;
+    left: 21%;
 }
 
 .oldTeam.t5{
@@ -122,7 +117,6 @@
 }
 
 .oldTeam.t6 img{
-    position: relative;
     width: 70%;
     height: 90%;
     top: 5%;
@@ -139,7 +133,6 @@
 }
 
 .oldTeam.t7 img{
-    position: relative;
     width: 90%;
     height: 70%;
     top: 12.5%;
@@ -156,7 +149,6 @@
 }
 
 .oldTeam.t8 img{
-    position: relative;
     width: 60%;
     height: 90%;
     top: 5%;
@@ -164,7 +156,7 @@
 }
 
 .oldTeam.t8{
-    background-color: #F6E91F;
+    background-color: white;
 }
 
 .innerTeam.t9{
@@ -173,7 +165,6 @@
 }
 
 .oldTeam.t9 img{
-    position: relative;
     width: 60%;
     height: 90%;
     top: 5%;
@@ -190,7 +181,6 @@
 }
 
 .oldTeam.t10 img{
-    position: relative;
     width: 60%;
     height: 90%;
     top: 5%;
@@ -207,7 +197,6 @@
 }
 
 .oldTeam.t11 img{
-    position: relative;
     width: 60%;
     height: 90%;
     top: 5%;
@@ -224,7 +213,6 @@
 }
 
 .oldTeam.t12 img{
-    position: relative;
     width: 55%;
     height: 90%;
     top: 5%;
@@ -241,7 +229,6 @@
 }
 
 .oldTeam.t13 img{
-    position: relative;
     width: 50%;
     height: 90%;
     top: 5%;
@@ -258,7 +245,6 @@
 }
 
 .oldTeam.t14 img{
-    position: relative;
     width: 60%;
     height: 90%;
     top: 5%;
@@ -275,7 +261,6 @@
 }
 
 .oldTeam.t15 img{
-    position: relative;
     width: 80%;
     height: 90%;
     top: 5%;
@@ -292,7 +277,6 @@
 }
 
 .oldTeam.t16 img{
-    position: relative;
     width: 50%;
     height: 90%;
     top: 5%;
@@ -309,7 +293,6 @@
 }
 
 .oldTeam.t17 img{
-    position: relative;
     width: 55%;
     height: 90%;
     top: 5%;
@@ -326,7 +309,6 @@
 }
 
 .oldTeam.t18 img{
-    position: relative;
     width: 45%;
     height: 90%;
     top: 5%;
@@ -343,9 +325,11 @@
 }
 
 .oldTeam.t19 img{
-    position: relative;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 90%;
+    top: 5%;
+    left: 10%;
+}
 }
 
 .oldTeam.t19{
@@ -358,7 +342,6 @@
 }
 
 .oldTeam.t20 img{
-    position: relative;
     width: 80%;
     height: 90%;
     top: 5%;
@@ -375,7 +358,6 @@
 }
 
 .oldTeam.t21 img{
-    position: relative;
     width: 60%;
     height: 90%;
     top: 5%;
@@ -392,11 +374,10 @@
 }
 
 .oldTeam.t22 img{
-    position: relative;
-    width: 80%;
+    width: 90%;
     height: 50%;
     top: 28%;
-    left: 10%;
+    left: 5%;
 }
 
 .oldTeam.t22{
@@ -409,7 +390,6 @@
 }
 
 .oldTeam.t23 img{
-    position: relative;
     width: 60%;
     height: 90%;
     top: 5%;
@@ -426,11 +406,10 @@
 }
 
 .oldTeam.t24 img{
-    position: relative;
-    width: 30%;
+    width: 35%;
     height: 80%;
     top: 10%;
-    left: 35%;
+    left: 32.5%;
 }
 
 .oldTeam.t24{
@@ -443,7 +422,6 @@
 }
 
 .oldTeam.t25 img{
-    position: relative;
     width: 50%;
     height: 90%;
     top: 5%;
@@ -460,7 +438,6 @@
 }
 
 .oldTeam.t26 img{
-    position: relative;
     width: 60%;
     height: 90%;
     top: 5%;
@@ -477,7 +454,6 @@
 }
 
 .oldTeam.t27 img{
-    position: relative;
     width: 85%;
     height: 90%;
     top: 5%;
@@ -494,7 +470,6 @@
 }
 
 .oldTeam.t28 img{
-    position: relative;
     width: 70%;
     height: 90%;
     top: 5%;
@@ -511,7 +486,6 @@
 }
 
 .oldTeam.t29 img{
-    position: relative;
     width: 90%;
     height: 65%;
     top: 17.5%;
@@ -528,11 +502,10 @@
 }
 
 .oldTeam.t30 img{
-    position: relative;
-    width: 60%;
+    width: 80%;
     height: 90%;
     top: 5%;
-    left: 20%;
+    left: 9%;
 }
 
 .oldTeam.t30{

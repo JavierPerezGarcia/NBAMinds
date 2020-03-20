@@ -16,13 +16,28 @@ header{
         width: 100%;
         height: 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
     }
+        .logo a{
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img{
+            width: 4.5rem;
+            height: 4.5rem;
+            margin: 0rem 1.5rem 0rem 2rem;
+        }
 
         .logo p{
             font-family: 'Rubik', sans-serif;
             color: white;
+            font-size: 2rem;
+            margin-right: 2rem;
+        }
+
+        .logo p:hover{
+            color: #1D418B;
         }
 
     nav{
@@ -54,7 +69,6 @@ header{
                 }
 
                 .botones li:hover{
-                    background-color: #091087;
                     background-color: #1D418B;
                 }
 
@@ -69,6 +83,7 @@ header{
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        font-size: 1em;
                     }
 
                     .botones a:hover{

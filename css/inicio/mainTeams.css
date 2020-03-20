@@ -4,12 +4,250 @@
     box-sizing: border-box;
 }
 
+main{
+    background-image: url(../../img/fondoBasket9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .titleTeams{
     display: grid;
-    grid-template-columns: 4% 92% 4%;
+    grid-template-columns: 5% 37% 16% 37% 5%;
     grid-template-rows: 4vh 10vh 4vh;
-    background-color: #221f1f;
+    background-color: rgb(34, 31, 31, 0.7);
 }
+
+.actualTeams{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.actualTeams h1{
+    position: relative;
+    top: 50%;
+    left: 18%;
+    color: white;
+    font-size: 1.8em;
+    letter-spacing: 8px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+
+    line-height: 0;
+
+    animation: glitch1 2.5s infinite;
+}
+
+.midLane{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.midLane h1{
+    position: relative;
+    top: 6%;
+    left: 33%;
+    color: white;
+    font-size: 3em;
+    letter-spacing: 8px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.OldTeams{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.OldTeams h1{
+    position: relative;
+    top: 50%;
+    left: 2%;
+    color: white;
+    font-size: 1.8em;
+    letter-spacing: 8px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+
+    line-height: 0;
+
+    animation: glitch1 2.5s infinite;
+}
+
+h1:nth-child(2) {
+    color: #1D418B;
+    animation: glitch2 2.5s infinite;
+  }
+  
+  h1:nth-child(3) {
+    color: #C90E2F;
+    animation: glitch3 2.5s infinite;
+  }
+  /*Keyframes*/
+  
+  @keyframes glitch1 {
+    0% {
+      transform: none;
+      opacity: 1;
+    }
+    7% {
+      transform: skew(-0.5deg, -0.9deg);
+      opacity: 0.75;
+    }
+    10% {
+      transform: none;
+      opacity: 1;
+    }
+    27% {
+      transform: none;
+      opacity: 1;
+    }
+    30% {
+      transform: skew(0.8deg, -0.1deg);
+      opacity: 0.6;
+    }
+    35% {
+      transform: none;
+      opacity: 1;
+    }
+    52% {
+      transform: none;
+      opacity: 1;
+    }
+    55% {
+      transform: skew(-1deg, 0.2deg);
+      opacity: 0.6;
+    }
+    50% {
+      transform: none;
+      opacity: 1;
+    }
+    72% {
+      transform: none;
+      opacity: 1;
+    }
+    75% {
+      transform: skew(0.4deg, 1deg);
+      opacity: 0.75;
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+    }
+    100% {
+      transform: none;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes glitch2 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(-2px, -3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(-5px, -2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(-5px, -1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(-2px, -6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+  }
+  
+  @keyframes glitch3 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(2px, 3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(5px, 2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(5px, 1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(2px, 6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+  }
 
 .teams{
     display: grid;
@@ -17,9 +255,6 @@
     grid-template-rows: 5vh 21vh 5vh 21vh 5vh 21vh 5vh 21vh 5vh 21vh 5vh 21vh 5vh;
     background-color: transparent;
     perspective: 2000px;
-    background-image: url(../../img/fondoBasket9.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .innerTeam{

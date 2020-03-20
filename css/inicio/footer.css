@@ -21,7 +21,7 @@
 
 .copyright>p{
     font-family: 'Rubik', sans-serif;
-    margin-top: 5px;
+    margin-top: 0.45rem;
 }
 
 .copyright p{
@@ -49,16 +49,15 @@ a:hover{
     color: #1D418B;
 }
 
-.socialMedia span{
-    font-size: 150%;
-    margin: 10px 10px 0px 10px;
+.socialMedia i{
+    margin: 0rem 1rem;
     color: white;
 }
 
-.socialMedia>a>.icon-twitter:hover, .socialMedia>a>.icon-linkedin2:hover{
+.socialMedia>a>.fa-twitter:hover, .socialMedia>a>.fa-linkedin-in:hover{
     color: #1D418B;
 }
 
-.socialMedia>a>.icon-facebook2:hover, .socialMedia>a>.icon-instagram:hover{
+.socialMedia>a>.fa-facebook-square:hover, .socialMedia>a>.fa-instagram:hover{
     color: #C90E2F;
 }

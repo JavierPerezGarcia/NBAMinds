@@ -8,10 +8,6 @@ header{
     display: grid;
     grid-template-rows: 15vh;
     grid-template-columns: 50% 50%;
-    background-color: #F90505;
-    background-color: #C80F2E;
-    background-color: #C90E2F;
-    background-color: #ffffbf;
     background-color: #221f1f;
 }
 

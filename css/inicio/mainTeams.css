@@ -20,19 +20,18 @@ main{
 .actualTeams{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .actualTeams h1{
-    position: relative;
-    top: 50%;
-    left: 18%;
+    position: absolute;
     color: white;
     font-size: 1.8em;
     letter-spacing: 8px;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-
-    line-height: 0;
 
     animation: glitch1 2.5s infinite;
 }
@@ -40,12 +39,13 @@ main{
 .midLane{
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .midLane h1{
-    position: relative;
-    top: 6%;
-    left: 33%;
+    position: absolute;
     color: white;
     font-size: 3em;
     letter-spacing: 8px;
@@ -56,19 +56,18 @@ main{
 .OldTeams{
     grid-column: 4 / 5;
     grid-row: 2 / 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .OldTeams h1{
-    position: relative;
-    top: 50%;
-    left: 2%;
+    position: absolute;
     color: white;
     font-size: 1.8em;
     letter-spacing: 8px;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-
-    line-height: 0;
 
     animation: glitch1 2.5s infinite;
 }

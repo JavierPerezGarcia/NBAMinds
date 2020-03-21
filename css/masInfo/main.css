@@ -6,8 +6,8 @@
 
 .contenedor{
     display: grid;
-    grid-template-rows: 25vh 70vh 10vh;
-    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 25vh 80vh 10vh;
+    grid-template-columns: 15% 70% 15%;
 }
 
 .fondoForm{
@@ -50,13 +50,71 @@
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     font-family: 'Rubik', sans-serif;
-    margin: 0rem 2rem;
+    margin: 0rem 10rem;
+    border-radius: 1rem;
     z-index: 1;
     border: 1px solid #221F1F;
     background: -webkit-linear-gradient(45deg, rgb(29, 65, 139, 0.5), rgb(201, 14, 47, 0.5));
     background-size: 300% 300%;
     -webkit-animation: gradiente 5s ease infinite;
     animation: gradiente 5s ease infinite;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+}
+
+h3{
+    margin: 1.5rem 0rem 1.5rem 1rem;
+    color: #221F1F;
+}
+
+.dato1, .dato2, .dato3, .dato4, .dato5, .mensaje{
+    display: flex;
+    margin: 1.2rem 0rem;
+}
+
+.dato5 input, .dato5 select{
+    text-align: center;
+    width: 20%;
+    margin: 0rem 0.31rem;
+}
+
+label{
+    width: 17%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+
+input{
+    width: 77%;
+    opacity: 0.9;
+}
+
+select{
+    width: 47.1%;
+    opacity: 0.9;
+}
+
+.paisResi{
+    width: 46.8%;
+}
+
+.fecha{
+    width: 30%;
+}
+
+.boletin{
+    width: 95%;
+}
+
+
+
+textarea{
+    width: 77%;
+    resize: none;
 }
 
 @keyframes filtro{

@@ -6,9 +6,28 @@
 
 .container{
     display: grid;
-    grid-template-rows: 200vh;
+    grid-template-rows: 35vh 165vh;
     grid-template-columns: 10% 80% 10%;
     background-image: url(../../img/fondoBasket7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.titulo{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo i{
+    font-size: 3.2rem;
+    margin: 0 2rem;
+}
+
+.titulo h1{
+    font-size: 3.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
 }

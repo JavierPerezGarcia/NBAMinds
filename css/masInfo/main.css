@@ -4,13 +4,15 @@
     box-sizing: border-box;  
 }
 
-.container{
+.contenedor{
     display: grid;
-    grid-template-rows: 35vh 165vh;
+    grid-template-rows: 35vh 85vh 10vh;
     grid-template-columns: 10% 80% 10%;
     background-image: url(../../img/fondoBasket7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    animation: filtro 5s linear infinite;
 }
 
 .titulo{
@@ -30,4 +32,19 @@
     font-size: 3.5rem;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
+}
+
+.formulario{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes filtro{
+
+    0%{filter: none;}
+    50%{filter: sepia(100%);}
+    100%{filter: none;}
 }

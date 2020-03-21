@@ -6,13 +6,19 @@
 
 .contenedor{
     display: grid;
-    grid-template-rows: 35vh 85vh 10vh;
+    grid-template-rows: 35vh 70vh 10vh;
     grid-template-columns: 10% 80% 10%;
+}
+
+.fondoForm{
+    grid-column: 1 /4;
+    grid-row: 1 / 4;
     background-image: url(../../img/fondoBasket7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 0;
 
-    animation: filtro 6s linear infinite;
+    animation: filtro 8s linear infinite;
 }
 
 .titulo{
@@ -21,11 +27,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .titulo i{
     font-size: 3.2rem;
-    margin: 0 2rem;
+    margin: 0rem 2rem;
 }
 
 .titulo h1{
@@ -38,13 +45,15 @@
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     font-family: 'Rubik', sans-serif;
-    width: 100%;
-    height: 100%;
+    margin: 0rem 2rem;
+    background-color: rgb(202, 19, 49, 0.4);
+    z-index: 1;
+    border: 1px solid black;
 }
 
 @keyframes filtro{
 
     0%{filter: none;}
-    50%{filter: sepia(75%);}
+    50%{filter: saturate(75%);}
     100%{filter: none;}
 }

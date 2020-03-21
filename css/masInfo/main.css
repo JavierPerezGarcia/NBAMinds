@@ -54,7 +54,7 @@
     z-index: 1;
     border: 1px solid #221F1F;
     background: -webkit-linear-gradient(45deg, rgb(29, 65, 139, 0.5), rgb(201, 14, 47, 0.5));
-
+    background-size: 300% 300%;
     -webkit-animation: gradiente 5s ease infinite;
     animation: gradiente 5s ease infinite;
 }

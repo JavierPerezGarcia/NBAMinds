@@ -6,7 +6,7 @@
 
 .contenedor{
     display: grid;
-    grid-template-rows: 35vh 70vh 10vh;
+    grid-template-rows: 25vh 70vh 10vh;
     grid-template-columns: 10% 80% 10%;
 }
 
@@ -51,9 +51,12 @@
     grid-row: 2 / 3;
     font-family: 'Rubik', sans-serif;
     margin: 0rem 2rem;
-    background-color: rgb(202, 19, 49, 0.4);
     z-index: 1;
     border: 1px solid #221F1F;
+    background: -webkit-linear-gradient(45deg, rgb(29, 65, 139, 0.5), rgb(201, 14, 47, 0.5));
+
+    -webkit-animation: gradiente 5s ease infinite;
+    animation: gradiente 5s ease infinite;
 }
 
 @keyframes filtro{
@@ -61,6 +64,12 @@
     0%{filter: none;}
     50%{filter: sepia(60%);}
     100%{filter: none;}
+}
+
+@-webkit-keyframes gradiente{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
 }
 
 @keyframes gradiente{

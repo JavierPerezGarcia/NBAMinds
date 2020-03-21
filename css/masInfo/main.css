@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 200vh;
+    grid-template-columns: 10% 80% 10%;
+    background-image: url(../../img/fondoBasket7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

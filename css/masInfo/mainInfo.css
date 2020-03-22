@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.contenedor{
+    display: grid;
+    grid-template-rows: 25vh 95vh 5vh;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.fondoForm{
+    grid-column: 1 /4;
+    grid-row: 1 / 4;
+    background-image: url(../../img/fondoBasket7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+
+    animation: filtro 8s linear infinite;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.titulo i{
+    font-size: 3.2rem;
+    margin: 0rem 2rem;
+    color: #221F1F;
+}
+
+.titulo h1{
+    font-size: 3.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    background-size: 100%;
+    background: -webkit-linear-gradient(45deg, #1D418B, #C90E2F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.formulario{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-family: 'Rubik', sans-serif;
+    margin: 0rem 10rem;
+    border-radius: 0.5rem;
+    z-index: 1;
+    border: 1px solid #221F1F;
+    background: -webkit-linear-gradient(45deg, rgb(29, 65, 139, 0.5), rgb(201, 14, 47, 0.5));
+    background-size: 300% 300%;
+    -webkit-animation: gradiente 5s ease infinite;
+    animation: gradiente 5s ease infinite;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+}
+
+h3{
+    margin: 1.5rem 0rem 1.5rem 1rem;
+    color: #221F1F;
+}
+
+.dato1, .dato2, .dato3, .dato4, .dato5, .mensaje{
+    display: flex;
+    margin: 1.2rem 0rem;
+}
+
+.dato5 input, .dato5 select{
+    text-align: center;
+    width: 24.33%;
+    margin: 0rem 0.31rem;
+}
+
+label{
+    width: 17%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+
+input{
+    width: 77%;
+    opacity: 0.9;
+}
+
+select{
+    width: 77%;
+    opacity: 0.9;
+    text-align-last: center;
+}
+
+.paisResi{
+    width: 17%;
+}
+
+.fecha{
+    width: 17%;
+}
+
+.boletin{
+    width: 8%;
+    margin-top: 0.23rem;
+    margin-left: 0.5rem;
+}
+
+.textoBoletin{
+    width: 95%;
+}
+
+.terceros{
+    width: 8%;
+    margin-top: 0.23rem;
+    margin-left: 0.5rem;
+}
+
+.textoTerceros{
+    width: 95%;
+}
+
+.checkBox{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.checkBox2{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+textarea{
+    width: 77%;
+    resize: none;
+    opacity: 0.9;
+}
+
+.botones2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.envio, .limpieza{
+    width: 25%;
+}
+
+@keyframes filtro{
+
+    0%{filter: none;}
+    50%{filter: sepia(60%);}
+    100%{filter: none;}
+}
+
+@-webkit-keyframes gradiente{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+
+@keyframes gradiente{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}

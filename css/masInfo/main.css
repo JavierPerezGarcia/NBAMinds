@@ -6,7 +6,7 @@
 
 .contenedor{
     display: grid;
-    grid-template-rows: 25vh 110vh 10vh;
+    grid-template-rows: 25vh 95vh 5vh;
     grid-template-columns: 15% 70% 15%;
 }
 
@@ -107,14 +107,47 @@ select{
 }
 
 .boletin{
+    width: 8%;
+    margin-top: 0.23rem;
+    margin-left: 0.5rem;
+}
+
+.textoBoletin{
     width: 95%;
 }
 
+.terceros{
+    width: 8%;
+    margin-top: 0.23rem;
+    margin-left: 0.5rem;
+}
 
+.textoTerceros{
+    width: 95%;
+}
+
+.checkBox{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.checkBox2{
+    display: flex;
+    margin-bottom: 2rem;
+}
 
 textarea{
     width: 77%;
     resize: none;
+}
+
+.botones2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.envio, .limpieza{
+    width: 25%;
 }
 
 @keyframes filtro{

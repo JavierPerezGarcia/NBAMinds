@@ -11,7 +11,7 @@ main{
 .kobe{
     display: grid;
     grid-template-columns: 3% 63% 31% 3%;
-    grid-template-rows: 6vh 73vh 6vh;
+    grid-template-rows: 6vh auto 6vh;
 }
 
 .fondoKobe{
@@ -40,7 +40,7 @@ video{
 .gigi{
     display: grid;
     grid-template-columns: 3% 31% 63% 3%;
-    grid-template-rows: 11vh 73vh 6vh;
+    grid-template-rows: 11vh auto 6vh;
 }
 
 .fondoGigi{

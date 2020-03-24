@@ -60,7 +60,7 @@ main{
     article{
         display: grid;
         grid-template-columns: 3% 94% 3%;
-        grid-template-rows: 50vh;
+        grid-template-rows: auto;
     }
 
         .kobeAndGigi{
@@ -76,7 +76,7 @@ main{
                 background-color: white;
                 grid-column: 2 / 3;
                 grid-row: 2 / 3;
-                padding: 0rem 1rem 0rem 1rem;
+                padding: 1rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;

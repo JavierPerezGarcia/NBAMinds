@@ -13,7 +13,7 @@
 .fondoForm{
     grid-column: 1 /4;
     grid-row: 1 / 4;
-    background-image: url(../../img/fondosWeb/fondoBasket7.jpg);
+    background-image: url(../../img/fondosWebComp/fondoBasket7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;

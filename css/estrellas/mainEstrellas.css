@@ -7,26 +7,43 @@
 main{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 150vh;
+    grid-template-rows: auto;
 }
 
     .contenedorFondo{
         grid-column: 1 / 2;
         grid-row: 1 / 2;
-        background-image: url(../../img/fondosWebComp/fondoBasket8.jpg);
+        background-image: url(../../img/fondosWebComp/fondoBasket10.jpg);
         background-size: cover;
         display: grid;
         grid-template-columns: 3% 45% 4% 45% 3%;
-        grid-template-rows: 3vh 58vh 3vh 52vh 3vh 46vh 3vh;
+        grid-template-rows: 3vh 58vh 3vh 52vh 3vh 52vh 3vh;
     }
 
         .lebronJames{
             grid-column: 2 / 3;
             grid-row: 2 / 3;
+            margin-right: 0.1rem;
             background-image: url(../../img/lebron/lebron1.jpg);
             background-size: contain;
             background-repeat: no-repeat;
+            display: grid;
+            grid-template-columns: 63% 32% 5%;
+            grid-template-rows: 25% 50% 25%;
+            border: 0.2rem solid #C90E2F;
         }
+
+            .lebronPerfil{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                background-image: url(../../img/lebron/lebronPerfil1.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-position: center;
+                border-radius: 50%;
+                border: 0.2rem solid #221f1f;
+            }
 
         .michaelJordan{
             grid-column: 4 / 5;
@@ -34,4 +51,18 @@ main{
             background-image: url(../../img/jordan/jordan1.jpg);
             background-size: contain;
             background-repeat: no-repeat;
+            display: grid;
+            grid-template-columns: 65% 35%;
+            grid-template-rows: 55% 25% 20%;
+        }
+
+        .kareemAbdul{
+            grid-column: 2 / 3;
+            grid-row: 6 / 7;
+            background-image: url(../../img/kareem/kareem1.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: grid;
+            grid-template-columns: 35% 65%;
+            grid-template-rows: 55% 25% 20%;
         }

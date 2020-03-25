@@ -20,6 +20,35 @@ main{
         grid-template-rows: 3vh 58vh 3vh 52vh 3vh 52vh 3vh;
     }
 
+        .flechas{
+            font-family: 'Rubik', sans-serif;
+            font-size: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            -webkit-text-stroke: 0.1rem black;
+        }
+
+        .flechas.Lebron{
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;
+            color: #C90E2F;
+        }
+
+        .flechas.Michael{
+            grid-column: 3 / 4;
+            grid-row: 4 / 5;
+            color: #1D418B;
+        }
+
+        .flechas.Kareem{
+            grid-column: 3 / 4;
+            grid-row: 6 / 7;
+            color: white;
+        }
+
         .lebronJames{
             grid-column: 2 / 3;
             grid-row: 2 / 3;
@@ -89,7 +118,7 @@ main{
         }
 
         .michaelJordan.left{
-            transform: translateX(-41.3rem);
+            transform: translateX(-108.8%);
             transition-duration: 3s;
         }
 
@@ -140,7 +169,7 @@ main{
         }
 
         .kareemAbdul.right{
-            transform: translateX(41.3rem);
+            transform: translateX(108.8%);
             transition-duration: 3s;
         }
 

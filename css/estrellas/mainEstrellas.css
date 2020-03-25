@@ -62,15 +62,14 @@ main{
             .lebronNombre{
                 grid-column: 2 / 7;
                 grid-row: 1 / 2;
-                display: flex;
-                justify-content: center;
-                align-items: flex-start;
                 color: #C90E2F;
                 font-family: 'Rubik', sans-serif;
                 font-weight: bold;
                 font-size: 2rem;
                 z-index: 2;
-                margin-left: 2.5rem;
+                display: flex;
+                justify-content: flex-end;
+                margin-right: 0.3rem;
             }
 
 
@@ -121,7 +120,8 @@ main{
                 font-size: 2rem;
                 z-index: 2;
                 margin-left: 0.3rem;
-                margin-top: 1.5rem;
+                display: flex;
+                align-items: flex-end;
             }
 
         .kareemAbdul{
@@ -170,5 +170,4 @@ main{
                 font-size: 2rem;
                 z-index: 2;
                 margin-left: 0.3rem;
-                margin-top: 0.2rem;
             }

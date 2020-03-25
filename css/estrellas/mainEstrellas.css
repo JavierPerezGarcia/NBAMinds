@@ -40,7 +40,6 @@ main{
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
-                background-position: center;
                 border-radius: 50%;
                 border: 0.2rem solid #221f1f;
             }
@@ -48,21 +47,36 @@ main{
         .michaelJordan{
             grid-column: 4 / 5;
             grid-row: 4 / 5;
+            margin-right: 0.3rem;
             background-image: url(../../img/jordan/jordan1.jpg);
             background-size: contain;
             background-repeat: no-repeat;
             display: grid;
-            grid-template-columns: 65% 35%;
-            grid-template-rows: 55% 25% 20%;
+            grid-template-columns: 67% 30% 3%;
+            grid-template-rows: 5% 55% 25% 20%;
+            border: 0.2rem solid #1D418B;
         }
+
+            .michaelPerfil{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                background-image: url(../../img/jordan/jordanPerfil2.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                border-radius: 50%;
+                border: 0.2rem solid white;
+            }
 
         .kareemAbdul{
             grid-column: 2 / 3;
             grid-row: 6 / 7;
+            margin-right: 0.3rem;
             background-image: url(../../img/kareem/kareem1.jpg);
             background-size: contain;
             background-repeat: no-repeat;
             display: grid;
             grid-template-columns: 35% 65%;
             grid-template-rows: 55% 25% 20%;
+            border: 0.2rem solid white;
         }

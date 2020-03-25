@@ -8,6 +8,8 @@ Azul NBA --> #1D418B
 
 Rojo NBA --> #C90E2F
 
+Negro Web --> #221f1f
+
 Laskers violeta --> #552583;
 
 Lakers gold --> #fdb927;

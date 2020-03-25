@@ -27,34 +27,52 @@ main{
             background-size: cover;
             background-repeat: no-repeat;
             display: grid;
-            grid-template-columns: 63% 32% 5%;
-            grid-template-rows: 23% 52% 25%;
+            grid-template-columns: 50% 14% 4% 20% 10% 2%;
+            grid-template-rows: 25% 24% 48% 3%;
             border: 0.2rem solid #C90E2F;
+            transition-duration: 3s;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .lebronJames.right{
+            transform: translateX(41.3rem);
+            transition-duration: 3s;
+        }
+
+        .lebronAwards{
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            background-color: #C90E2F;
+            border: 0.2rem solid #221f1f;
         }
 
             .lebronPerfil{
-                grid-column: 2 / 3;
-                grid-row: 2 / 3;
+                grid-column: 4 / 6;
+                grid-row: 3 / 4;
                 background-image: url(../../img/lebron/lebronPerfil1.jpeg);
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-position: -2.65rem;
+                background-position: 45%;
                 border-radius: 50%;
-                border: 0.2rem solid #221f1f;
+                border: 0.2rem solid #C90E2F;
+                z-index: 2;
             }
 
             .lebronNombre{
-                grid-column: 2 / 3;
-                grid-row: 3 / 4;
+                grid-column: 2 / 7;
+                grid-row: 1 / 2;
                 display: flex;
                 justify-content: center;
-                align-items: center;
-                color: white;
+                align-items: flex-start;
+                color: #C90E2F;
                 font-family: 'Rubik', sans-serif;
-                font-weight: 300;
-                font-size: 1.65rem;
-                text-align: center;
+                font-weight: bold;
+                font-size: 2rem;
+                z-index: 2;
+                margin-left: 2.5rem;
             }
+
 
         .michaelJordan{
             grid-column: 4 / 5;
@@ -63,9 +81,24 @@ main{
             background-size: cover;
             background-repeat: no-repeat;
             display: grid;
-            grid-template-columns: 67% 30% 3%;
-            grid-template-rows: 5% 52% 25% 18%;
+            grid-template-columns: 68% 30% 2%;
+            grid-template-rows: 4% 52% 26% 18%;
             border: 0.2rem solid #1D418B;
+            transition-duration: 3s;
+            z-index: 1;
+            cursor: pointer
+        }
+
+        .michaelJordan.left{
+            transform: translateX(-41.3rem);
+            transition-duration: 3s;
+        }
+
+        .michaelAwards{
+            grid-column: 4 / 5;
+            grid-row: 4 / 5;
+            background-color: #1D418B;
+            border: 0.2rem solid #221f1f;
         }
 
             .michaelPerfil{
@@ -76,7 +109,19 @@ main{
                 background-repeat: no-repeat;
                 background-position: center;
                 border-radius: 50%;
-                border: 0.2rem solid white;
+                border: 0.2rem solid #1D418B;
+            }
+
+            .michaelNombre{
+                grid-column: 1 / 2;
+                grid-row: 4 / 5;
+                color: #1D418B;
+                font-family: 'Rubik', sans-serif;
+                font-weight: bold;
+                font-size: 2rem;
+                z-index: 2;
+                margin-left: 0.3rem;
+                margin-top: 1.5rem;
             }
 
         .kareemAbdul{
@@ -86,17 +131,44 @@ main{
             background-size: cover;
             background-repeat: no-repeat;
             display: grid;
-            grid-template-columns: 3% 30% 67%;
-            grid-template-rows: 5% 52% 25% 18%;
+            grid-template-columns: 68% 30% 2%;
+            grid-template-rows: 25% 19% 52% 4%;
             border: 0.2rem solid white;
+            transition-duration: 3s;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .kareemAbdul.right{
+            transform: translateX(41.3rem);
+            transition-duration: 3s;
+        }
+
+        .kareemAwards{
+            grid-column: 2 / 3;
+            grid-row: 6 / 7;
+            background-color: white;
+            border: 0.2rem solid #221f1f;
         }
 
             .kareemPerfil{
                 grid-column: 2 / 3;
-                grid-row: 2 / 3;
+                grid-row: 3 / 4;
                 background-image: url(../../img/kareem/kareemPerfil1.jpg);
                 background-size: cover;
                 background-repeat: no-repeat;
                 border-radius: 50%;
-                border: 0.2rem solid #221f1f;
+                border: 0.2rem solid white;
+            }
+
+            .kareemNombre{
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+                color: white;
+                font-family: 'Rubik', sans-serif;
+                font-weight: bold;
+                font-size: 2rem;
+                z-index: 2;
+                margin-left: 0.3rem;
+                margin-top: 0.2rem;
             }

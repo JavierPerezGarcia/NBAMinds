@@ -84,9 +84,10 @@ main{
             flex-direction: column;
             justify-content: center;
             text-align: justify;
-            border: 1px solid black;
+            border: 0.05rem solid black;
             font-family: 'Rubik', sans-serif;
-            line-height: 300%;
+            background-image: url(../../img/fondosWebComp/fondoBasket3.jpg);
+            background-size: cover;
         }
 
             .lebronPerfil{
@@ -157,6 +158,15 @@ main{
         .vidaPersonal.Michael{
             grid-column: 2 / 3;
             grid-row: 4 / 5;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+            border: 0.05rem solid black;
+            font-family: 'Rubik', sans-serif;
+            background-image: url(../../img/fondosWebComp/fondoBasket5.jpg);
+            background-size: cover;
         }
 
             .michaelPerfil{
@@ -226,6 +236,15 @@ main{
         .vidaPersonal.Kareem{
             grid-column: 4 / 5;
             grid-row: 6 / 7;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+            border: 0.05rem solid black;
+            font-family: 'Rubik', sans-serif;
+            background-image: url(../../img/fondosWebComp/fondoBasket8.jpg);
+            background-size: cover;
         }
 
             .kareemPerfil{

@@ -65,7 +65,7 @@ main{
         }
 
         .lebronJames.right{
-            transform: translateX(108.8%);
+            transform: translateX(108.9%);
             transition-duration: 3s;
         }
 
@@ -74,6 +74,17 @@ main{
             grid-row: 2 / 3;
             background-color: #C90E2F;
             border: 0.2rem solid #221f1f;
+        }
+
+        .vidaPersonal.Lebron{
+            grid-column: 4 / 5;
+            grid-row: 2 / 3;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+            border: 1px solid black;
         }
 
             .lebronPerfil{
@@ -101,6 +112,18 @@ main{
                 margin-right: 0.3rem;
             }
 
+            .dorsal1{
+                font-family: 'Rubik', sans-serif;
+                font-weight: bold;
+                font-size: 2rem;
+                z-index: 2;
+                grid-column: 1 / 2;
+                grid-row: 3 / 5;
+                color: #C90E2F;
+                display: flex;
+                align-items: flex-end;
+                margin-left: 0.3rem;
+            }
 
         .michaelJordan{
             grid-column: 4 / 5;
@@ -118,7 +141,7 @@ main{
         }
 
         .michaelJordan.left{
-            transform: translateX(-108.8%);
+            transform: translateX(-108.9%);
             transition-duration: 3s;
         }
 
@@ -127,6 +150,11 @@ main{
             grid-row: 4 / 5;
             background-color: #1D418B;
             border: 0.2rem solid #221f1f;
+        }
+
+        .vidaPersonal.Michael{
+            grid-column: 2 / 3;
+            grid-row: 4 / 5;
         }
 
             .michaelPerfil{
@@ -153,6 +181,19 @@ main{
                 align-items: flex-end;
             }
 
+            .dorsal2{
+                font-family: 'Rubik', sans-serif;
+                font-weight: bold;
+                font-size: 2rem;
+                z-index: 2;
+                grid-column: 2 / 3;
+                grid-row: 4 / 5;
+                color: #1D418B;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+            }
+
         .kareemAbdul{
             grid-column: 2 / 3;
             grid-row: 6 / 7;
@@ -169,7 +210,7 @@ main{
         }
 
         .kareemAbdul.right{
-            transform: translateX(108.8%);
+            transform: translateX(108.9%);
             transition-duration: 3s;
         }
 
@@ -178,6 +219,11 @@ main{
             grid-row: 6 / 7;
             background-color: white;
             border: 0.2rem solid #221f1f;
+        }
+
+        .vidaPersonal.Kareem{
+            grid-column: 4 / 5;
+            grid-row: 6 / 7;
         }
 
             .kareemPerfil{
@@ -198,5 +244,19 @@ main{
                 font-weight: bold;
                 font-size: 2rem;
                 z-index: 2;
+                margin-left: 0.3rem;
+            }
+
+            .dorsal3{
+                font-family: 'Rubik', sans-serif;
+                font-weight: bold;
+                font-size: 2rem;
+                z-index: 2;
+                grid-column: 1 / 2;
+                grid-row: 3 / 5;
+                color: white;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-end;
                 margin-left: 0.3rem;
             }

@@ -85,6 +85,8 @@ main{
             justify-content: center;
             text-align: justify;
             border: 1px solid black;
+            font-family: 'Rubik', sans-serif;
+            line-height: 300%;
         }
 
             .lebronPerfil{

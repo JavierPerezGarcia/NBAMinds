@@ -23,13 +23,12 @@ main{
         .lebronJames{
             grid-column: 2 / 3;
             grid-row: 2 / 3;
-            margin-right: 0.1rem;
             background-image: url(../../img/lebron/lebron1.jpg);
-            background-size: contain;
+            background-size: cover;
             background-repeat: no-repeat;
             display: grid;
             grid-template-columns: 63% 32% 5%;
-            grid-template-rows: 25% 50% 25%;
+            grid-template-rows: 23% 52% 25%;
             border: 0.2rem solid #C90E2F;
         }
 
@@ -39,21 +38,33 @@ main{
                 background-image: url(../../img/lebron/lebronPerfil1.jpeg);
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-position: center;
+                background-position: -2.65rem;
                 border-radius: 50%;
                 border: 0.2rem solid #221f1f;
+            }
+
+            .lebronNombre{
+                grid-column: 2 / 3;
+                grid-row: 3 / 4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-family: 'Rubik', sans-serif;
+                font-weight: 300;
+                font-size: 1.65rem;
+                text-align: center;
             }
 
         .michaelJordan{
             grid-column: 4 / 5;
             grid-row: 4 / 5;
-            margin-right: 0.3rem;
             background-image: url(../../img/jordan/jordan1.jpg);
-            background-size: contain;
+            background-size: cover;
             background-repeat: no-repeat;
             display: grid;
             grid-template-columns: 67% 30% 3%;
-            grid-template-rows: 5% 55% 25% 20%;
+            grid-template-rows: 5% 52% 25% 18%;
             border: 0.2rem solid #1D418B;
         }
 
@@ -71,12 +82,21 @@ main{
         .kareemAbdul{
             grid-column: 2 / 3;
             grid-row: 6 / 7;
-            margin-right: 0.3rem;
             background-image: url(../../img/kareem/kareem1.jpg);
-            background-size: contain;
+            background-size: cover;
             background-repeat: no-repeat;
             display: grid;
-            grid-template-columns: 35% 65%;
-            grid-template-rows: 55% 25% 20%;
+            grid-template-columns: 3% 30% 67%;
+            grid-template-rows: 5% 52% 25% 18%;
             border: 0.2rem solid white;
         }
+
+            .kareemPerfil{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                background-image: url(../../img/kareem/kareemPerfil1.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 50%;
+                border: 0.2rem solid #221f1f;
+            }

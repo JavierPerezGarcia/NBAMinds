@@ -5,5 +5,5 @@ Visit here: https://javierperezgarcia.github.io/NBAMinds/
 
 (Not responsive yet)
 
-Next possible pages: NBA Stars
+Next possible pages: Hazañas
 

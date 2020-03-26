@@ -37,18 +37,6 @@ main{
             color: #C90E2F;
         }
 
-        .flechas.Michael{
-            grid-column: 3 / 4;
-            grid-row: 4 / 5;
-            color: #1D418B;
-        }
-
-        .flechas.Kareem{
-            grid-column: 3 / 4;
-            grid-row: 6 / 7;
-            color: white;
-        }
-
         .lebronJames{
             grid-column: 2 / 3;
             grid-row: 2 / 3;
@@ -67,42 +55,6 @@ main{
         .lebronJames.right{
             transform: translateX(108.9%);
             transition-duration: 3s;
-        }
-
-        .lebronAwards{
-            grid-column: 2 / 3;
-            grid-row: 2 / 3;
-            background-color: #C90E2F;
-            border: 0.2rem solid #221f1f;
-            font-family: 'Rubik', sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .lebronAwards p{
-            margin: 0.5rem;
-            color: white;
-        }
-
-        .vidaPersonal.Lebron{
-            grid-column: 4 / 5;
-            grid-row: 2 / 3;
-            padding: 1rem;
-            border: 0.05rem solid black;
-            font-family: 'Rubik', sans-serif;
-            background-image: url(../../img/parquet/parquet1.jpg);
-            background-size: cover;
-            text-align: justify;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: justify;
-        }
-
-        .vidaPersonal.Lebron h2{
-            margin-bottom: 0.4rem;
         }
 
             .lebronPerfil{
@@ -143,6 +95,49 @@ main{
                 margin-left: 0.3rem;
             }
 
+        .lebronAwards{
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            background-color: #C90E2F;
+            border: 0.2rem solid #221f1f;
+            font-family: 'Rubik', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .lebronAwards p{
+                margin: 0.5rem;
+                color: white;
+            }
+
+        .vidaPersonal.Lebron{
+            grid-column: 4 / 5;
+            grid-row: 2 / 3;
+            padding: 1rem;
+            border: 0.05rem solid black;
+            font-family: 'Rubik', sans-serif;
+            background-image: url(../../img/parquet/parquet1.jpg);
+            background-size: cover;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+            text-shadow: 0.05rem 0.05rem #C90E2F;
+        }
+
+            .vidaPersonal.Lebron h2{
+                margin-bottom: 0.4rem;
+            }       
+
+        .flechas.Michael{
+            grid-column: 3 / 4;
+            grid-row: 4 / 5;
+            color: #1D418B;
+        }
+
         .michaelJordan{
             grid-column: 4 / 5;
             grid-row: 4 / 5;
@@ -161,41 +156,6 @@ main{
         .michaelJordan.left{
             transform: translateX(-108.9%);
             transition-duration: 3s;
-        }
-
-        .michaelAwards{
-            grid-column: 4 / 5;
-            grid-row: 4 / 5;
-            background-color: #1D418B;
-            border: 0.2rem solid #221f1f;
-            font-family: 'Rubik', sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .michaelAwards p{
-            margin: 0.4rem;
-            color: white;
-        }
-
-        .vidaPersonal.Michael{
-            grid-column: 2 / 3;
-            grid-row: 4 / 5;
-            padding: 1rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: justify;
-            border: 0.05rem solid black;
-            font-family: 'Rubik', sans-serif;
-            background-image: url(../../img/parquet/parquet1.jpg);
-            background-size: cover;
-        }
-
-        .vidaPersonal.Michael h2{
-            margin-bottom: 0.4rem;
         }
 
             .michaelPerfil{
@@ -235,6 +195,48 @@ main{
                 align-items: flex-end;
             }
 
+        .michaelAwards{
+            grid-column: 4 / 5;
+            grid-row: 4 / 5;
+            background-color: #1D418B;
+            border: 0.2rem solid #221f1f;
+            font-family: 'Rubik', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .michaelAwards p{
+                margin: 0.4rem;
+                color: white;
+            }
+
+        .vidaPersonal.Michael{
+            grid-column: 2 / 3;
+            grid-row: 4 / 5;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+            border: 0.05rem solid black;
+            font-family: 'Rubik', sans-serif;
+            background-image: url(../../img/parquet/parquet1.jpg);
+            background-size: cover;
+            text-shadow: 0.05rem 0.05rem #1D418B;
+        }
+
+            .vidaPersonal.Michael h2{
+                margin-bottom: 0.4rem;
+            }
+
+        .flechas.Kareem{
+            grid-column: 3 / 4;
+            grid-row: 6 / 7;
+            color: white;
+        }
+
         .kareemAbdul{
             grid-column: 2 / 3;
             grid-row: 6 / 7;
@@ -253,41 +255,6 @@ main{
         .kareemAbdul.right{
             transform: translateX(108.9%);
             transition-duration: 3s;
-        }
-
-        .kareemAwards{
-            grid-column: 2 / 3;
-            grid-row: 6 / 7;
-            background-color: white;
-            border: 0.2rem solid #221f1f;
-            font-family: 'Rubik', sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center; 
-        }
-
-        .kareemAwards p{
-            margin: 0.4rem;
-            color: black;
-        }
-
-        .vidaPersonal.Kareem{
-            grid-column: 4 / 5;
-            grid-row: 6 / 7;
-            padding: 1rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: justify;
-            border: 0.05rem solid black;
-            font-family: 'Rubik', sans-serif;
-            background-image: url(../../img/parquet/parquet1.jpg);
-            background-size: cover;
-        }
-
-        .vidaPersonal.Kareem h2{
-            margin-bottom: 0.4rem;
         }
 
             .kareemPerfil{
@@ -323,4 +290,40 @@ main{
                 justify-content: flex-start;
                 align-items: flex-end;
                 margin-left: 0.3rem;
+            }
+
+        .kareemAwards{
+            grid-column: 2 / 3;
+            grid-row: 6 / 7;
+            background-color: white;
+            border: 0.2rem solid #221f1f;
+            font-family: 'Rubik', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+        }
+
+            .kareemAwards p{
+                margin: 0.4rem;
+                color: black;
+            }
+
+        .vidaPersonal.Kareem{
+            grid-column: 4 / 5;
+            grid-row: 6 / 7;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+            border: 0.05rem solid black;
+            font-family: 'Rubik', sans-serif;
+            background-image: url(../../img/parquet/parquet1.jpg);
+            background-size: cover;
+            text-shadow: 0.05rem 0.05rem white;
+        }
+
+            .vidaPersonal.Kareem h2{
+                margin-bottom: 0.4rem;
             }

@@ -21,13 +21,13 @@ main{
             align-items: center;
         }
 
-        .fondoKobe video:hover{
-            opacity: 0.5;
-        }
-
             video{
                 width: 100%;
                 height: 100%;
+            }
+
+            .fondoKobe video:hover{
+                opacity: 0.5;
             }
         
         .sliderKobe{
@@ -135,9 +135,9 @@ main{
             grid-row:  2 / 3;
         }
 
-        .fondoGigi video:hover{
-            opacity: 0.5;
-        }
+            .fondoGigi video:hover{
+                opacity: 0.5;
+            }
 
         .sliderGigi{
             grid-column: 2 / 3;

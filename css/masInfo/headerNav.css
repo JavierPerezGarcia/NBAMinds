@@ -24,22 +24,22 @@ header{
             text-decoration: none;
         }
 
-        .logo img{
-            width: 4.7rem;
-            height: 4.5rem;
-            margin: 0rem 1.5rem 0rem 2rem;
-        }
+            .logo img{
+                width: 4.7rem;
+                height: 4.5rem;
+                margin: 0rem 1.5rem 0rem 2rem;
+            }
 
-        .logo p{
-            font-family: 'Rubik', sans-serif;
-            color: white;
-            font-size: 2rem;
-            margin-right: 2rem;
-        }
+            .logo p{
+                font-family: 'Rubik', sans-serif;
+                color: white;
+                font-size: 2rem;
+                margin-right: 2rem;
+            }
 
-        .logo p:hover{
-            color: #C90E2F;
-        }
+            .logo p:hover{
+                color: #C90E2F;
+            }
 
     nav{
         grid-column: 2 / 3;

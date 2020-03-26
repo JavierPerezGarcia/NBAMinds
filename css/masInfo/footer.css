@@ -11,53 +11,50 @@
     background-color: #221f1f;
 }
 
-.copyright{
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .copyright{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.copyright>p{
-    font-family: 'Rubik', sans-serif;
-    margin-top: 0.45rem;
-}
+        .copyright>p{
+            font-family: 'Rubik', sans-serif;
+            margin-top: 0.45rem;
+            color: white;
+        }
 
-.copyright p{
-    color: white;
-}
+        .copyright p:hover{
+            color: #C90E2F;
+        }
 
-.copyright p:hover{
-    color: #C90E2F;
-}
+    .socialMedia{
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
 
-.socialMedia{
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
+        a{
+            text-decoration: none;
+            color: white;
+        }
 
-a{
-    text-decoration: none;
-    color: white;
-}
+        a:hover{
+            color: #1D418B;
+        }
 
-a:hover{
-    color: #1D418B;
-}
+            .socialMedia i{
+                margin: 0rem 1rem;
+                color: white;
+            }
 
-.socialMedia i{
-    margin: 0rem 1rem;
-    color: white;
-}
+                .socialMedia>a>.fa-twitter:hover, .socialMedia>a>.fa-linkedin-in:hover{
+                    color: #1D418B;
+                }
 
-.socialMedia>a>.fa-twitter:hover, .socialMedia>a>.fa-linkedin-in:hover{
-    color: #1D418B;
-}
-
-.socialMedia>a>.fa-facebook-square:hover, .socialMedia>a>.fa-instagram:hover{
-    color: #C90E2F;
-}
+                .socialMedia>a>.fa-facebook-square:hover, .socialMedia>a>.fa-instagram:hover{
+                    color: #C90E2F;
+                }

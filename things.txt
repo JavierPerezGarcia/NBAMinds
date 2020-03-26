@@ -1,7 +1,3 @@
-<li>
-                        <a href="html/estrellas.html">Estrellas NBA</a>
-                    </li>
-
 Colors:
 
 Azul NBA --> #1D418B

@@ -74,6 +74,16 @@ main{
             grid-row: 2 / 3;
             background-color: #C90E2F;
             border: 0.2rem solid #221f1f;
+            font-family: 'Rubik', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .lebronAwards p{
+            margin: 0.5rem;
+            color: white;
         }
 
         .vidaPersonal.Lebron{
@@ -85,10 +95,14 @@ main{
             background-image: url(../../img/parquet/parquet1.jpg);
             background-size: cover;
             text-align: justify;
-            display: grid;
-            justify-items: center;
-            align-items: center;
-            line-height: 270%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: justify;
+        }
+
+        .vidaPersonal.Lebron h2{
+            margin-bottom: 0.4rem;
         }
 
             .lebronPerfil{
@@ -154,6 +168,16 @@ main{
             grid-row: 4 / 5;
             background-color: #1D418B;
             border: 0.2rem solid #221f1f;
+            font-family: 'Rubik', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .michaelAwards p{
+            margin: 0.4rem;
+            color: white;
         }
 
         .vidaPersonal.Michael{
@@ -168,6 +192,10 @@ main{
             font-family: 'Rubik', sans-serif;
             background-image: url(../../img/parquet/parquet1.jpg);
             background-size: cover;
+        }
+
+        .vidaPersonal.Michael h2{
+            margin-bottom: 0.4rem;
         }
 
             .michaelPerfil{
@@ -232,6 +260,16 @@ main{
             grid-row: 6 / 7;
             background-color: white;
             border: 0.2rem solid #221f1f;
+            font-family: 'Rubik', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+        }
+
+        .kareemAwards p{
+            margin: 0.4rem;
+            color: black;
         }
 
         .vidaPersonal.Kareem{
@@ -246,6 +284,10 @@ main{
             font-family: 'Rubik', sans-serif;
             background-image: url(../../img/parquet/parquet1.jpg);
             background-size: cover;
+        }
+
+        .vidaPersonal.Kareem h2{
+            margin-bottom: 0.4rem;
         }
 
             .kareemPerfil{

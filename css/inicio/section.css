@@ -87,14 +87,14 @@
 }
 
 .flecha1{
-    grid-column: 4 / 5;
+    grid-column: 3 / 5;
     grid-row: 2 / 3;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 500;
+    font-weight: lighter;
     font-family: 'Rubik', sans-serif;
-    font-size: 3rem;
+    font-size: 5rem;
     background: -webkit-linear-gradient(0deg, #1D418B, #C90E2F);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

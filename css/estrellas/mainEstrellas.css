@@ -17,7 +17,7 @@ main{
         background-size: cover;
         display: grid;
         grid-template-columns: 3% 45% 4% 45% 3%;
-        grid-template-rows: 3vh 58vh 3vh 52vh 3vh 52vh 3vh;
+        grid-template-rows: 3vh auto 3vh 52vh 3vh 52vh 3vh;
     }
 
         .flechas{
@@ -88,6 +88,8 @@ main{
             font-family: 'Rubik', sans-serif;
             background-image: url(../../img/parquet/parquet1.jpg);
             background-size: cover;
+            padding: 5%;
+            line-height: 250%;
         }
 
             .lebronPerfil{

@@ -64,7 +64,7 @@
     background-repeat: no-repeat;
     background-position: 100% 35%;
     display: grid;
-    grid-template-columns: 3% 37% 20% 37% 3%;
+    grid-template-columns: 3% auto 15% 5% auto 3%;
     grid-template-rows: 10% auto 20%;
 }
 
@@ -73,6 +73,8 @@
     grid-row: 2 / 3;
     display: flex;
     align-items: center;
+    padding-right: 1rem;
+    border-right: 0.2rem solid #1D418B;
 }
 
 .firstText p{
@@ -85,10 +87,12 @@
 }
 
 .secondText{
-    grid-column: 4 / 5;
+    grid-column: 5 / 6;
     grid-row: 2 / 3;
     display: flex;
     align-items: center;
+    padding-left: 1rem;
+    border-left: 0.2rem solid #C90E2F;
 }
 
 .secondText p{
